@@ -1,3 +1,6 @@
 // Problem 051: Return a Value from a Function with Return
 
-// Write your solution here.
+function timesFive(num) {
+  return num * 5;
+}
+timesFive(5);
