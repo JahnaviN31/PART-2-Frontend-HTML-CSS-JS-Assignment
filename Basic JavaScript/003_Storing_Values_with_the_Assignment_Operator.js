@@ -1,3 +1,7 @@
 // Problem 003: Storing Values with the Assignment Operator
 
-// Write your solution here.
+// Setup
+var a;
+
+// Only change code below this line
+a = 7;
