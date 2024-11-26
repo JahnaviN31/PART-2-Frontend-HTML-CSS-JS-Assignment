@@ -1,3 +1,6 @@
 // Problem 016: Decrement a Number with JavaScript
 
-// Write your solution here.
+let myVar = 11;
+
+// Only change code below this line
+myVar--;
