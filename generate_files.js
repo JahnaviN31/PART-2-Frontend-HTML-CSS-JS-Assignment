@@ -1,6 +1,3 @@
-const fs = require('fs');
-const path = require('path');
-
 // Define the structure of your directories and problems with their corresponding numbers
 const fileStructure = {
     "Basic JavaScript": [
@@ -141,7 +138,7 @@ const fileStructure = {
     { number: '20', name: 'Create a Module Script' },
     { number: '21', name: 'Use export to Share a Code Block' },
     { number: '22', name: 'Reuse JavaScript Code Using import' },
-    { number: '23', name: 'Use * to Import Everything from a File' },
+    { number: '23', name: 'Use Asterisk to Import Everything from a File' },
     { number: '24', name: 'Create an Export Fallback with export default' },
     { number: '25', name: 'Import a Default Export' },
     { number: '26', name: 'Create a JavaScript Promise' },
@@ -297,31 +294,24 @@ const fileStructure = {
   ]
 };
 
-// Base directory where all folders will be created
-const baseDir = './PART-2-Frontend-HTML-CSS-JS-Assignment';
 
-// Function to create the directory and files
-const createFiles = (baseDir, fileStructure) => {
-  Object.keys(fileStructure).forEach(folder => {
-    const folderPath = path.join(baseDir, folder);
+const fs = require('fs');
+const path = require('path');
 
-    // Create folder if it doesn't exist
-    if (!fs.existsSync(folderPath)) {
-      fs.mkdirSync(folderPath, { recursive: true });
+Object.keys(fileStructure).forEach(category => {
+  const categoryPath = path.join(__dirname, 'PART-2-Frontend-HTML-CSS-JS-Assignment', category);
+  // Create the category directory
+  if (!fs.existsSync(categoryPath)) {
+    fs.mkdirSync(categoryPath, { recursive: true });
+  }
+
+  fileStructure[category].forEach(problem => {
+    // Create a JavaScript file directly in the category folder
+    const problemFile = path.join(categoryPath, `${problem.number}_${problem.name.replace(/ /g, "_")}.js`);
+    
+    // Create the JavaScript file if it doesn't exist
+    if (!fs.existsSync(problemFile)) {
+      fs.writeFileSync(problemFile, `// Problem ${problem.number}: ${problem.name}\n\n// Write your solution here.`);
     }
-
-    // Create files inside the folder with proper naming
-    fileStructure[folder].forEach(problem => {
-      const fileName = `${problem.number} - ${problem.name}.js`;
-      const filePath = path.join(folderPath, fileName);
-      
-      // Create an empty file
-      fs.writeFileSync(filePath, '', 'utf8');
-    });
   });
-};
-
-// Create all directories and files
-createFiles(baseDir, fileStructure);
-
-console.log('Files have been created successfully!');
+});
