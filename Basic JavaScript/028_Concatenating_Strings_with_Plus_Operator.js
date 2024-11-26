@@ -1,3 +1,3 @@
 // Problem 028: Concatenating Strings with Plus Operator
 
-// Write your solution here.
+const myStr = "This is the start. " + "This is the end."; // Change this line
