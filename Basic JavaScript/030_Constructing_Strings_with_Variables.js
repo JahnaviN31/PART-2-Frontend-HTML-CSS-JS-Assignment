@@ -1,3 +1,5 @@
 // Problem 030: Constructing Strings with Variables
 
-// Write your solution here.
+// Only change code below this line
+const myName = "Jahnavi";
+const myStr = "My name is "+ myName +" and I am well!";
