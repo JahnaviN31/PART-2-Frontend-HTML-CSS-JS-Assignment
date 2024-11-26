@@ -1,3 +1,4 @@
 // Problem 040: Nest one Array within Another Array
 
-// Write your solution here.
+// Only change code below this line
+const myArray = [["Apple",3],["Mango",5]];
