@@ -1,3 +1,7 @@
 // Problem 035: Use Bracket Notation to Find the Nth Character in a String
 
-// Write your solution here.
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
