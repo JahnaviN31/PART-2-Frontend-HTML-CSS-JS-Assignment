@@ -1,3 +1,9 @@
 // Problem 058: Understanding Boolean Values
 
-// Write your solution here.
+function welcomeToBooleans() {
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
