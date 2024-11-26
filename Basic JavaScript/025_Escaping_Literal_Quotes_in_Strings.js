@@ -1,3 +1,3 @@
 // Problem 025: Escaping Literal Quotes in Strings
 
-// Write your solution here.
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
