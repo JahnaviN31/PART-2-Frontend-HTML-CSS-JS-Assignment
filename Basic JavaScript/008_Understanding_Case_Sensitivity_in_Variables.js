@@ -1,3 +1,11 @@
 // Problem 008: Understanding Case Sensitivity in Variables
 
-// Write your solution here.
+// Variable declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Variable assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
