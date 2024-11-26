@@ -1,3 +1,5 @@
 // Problem 017: Create Decimal Numbers with JavaScript
+const ourDecimal = 5.7;
 
-// Write your solution here.
+// Only change code below this line
+let myDecimal = ourDecimal;
