@@ -1,3 +1,11 @@
 // Problem 060: Comparison with the Equality Operator
 
-// Write your solution here.
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testEqual(10);
