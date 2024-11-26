@@ -1,3 +1,4 @@
 // Problem 029: Concatenating Strings with the Plus Equals Operator
 
-// Write your solution here.
+let myStr = "This is the first sentence. ";
+myStr+="This is the second sentence."
