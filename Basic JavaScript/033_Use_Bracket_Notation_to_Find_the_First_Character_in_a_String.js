@@ -1,3 +1,8 @@
 // Problem 033: Use Bracket Notation to Find the First Character in a String
 
-// Write your solution here.
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
