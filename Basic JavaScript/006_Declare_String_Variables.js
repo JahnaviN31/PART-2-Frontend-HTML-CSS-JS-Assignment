@@ -1,3 +1,4 @@
 // Problem 006: Declare String Variables
 
-// Write your solution here.
+const myFirstName = "Jahnavi";
+const myLastName = "N";
