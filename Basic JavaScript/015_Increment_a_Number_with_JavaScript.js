@@ -1,3 +1,6 @@
 // Problem 015: Increment a Number with JavaScript
 
-// Write your solution here.
+let myVar = 87;
+
+// Only change code below this line
+myVar++;
