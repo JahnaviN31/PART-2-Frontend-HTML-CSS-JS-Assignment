@@ -1,3 +1,4 @@
 // Problem 041: Access Array Data with Indexes
 
-// Write your solution here.
+const myArray = [50, 60, 70];
+const myData = myArray[0];
