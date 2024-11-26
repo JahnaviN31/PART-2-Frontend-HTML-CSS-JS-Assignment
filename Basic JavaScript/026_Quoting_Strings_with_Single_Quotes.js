@@ -1,3 +1,3 @@
 // Problem 026: Quoting Strings with Single Quotes
 
-// Write your solution here.
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
