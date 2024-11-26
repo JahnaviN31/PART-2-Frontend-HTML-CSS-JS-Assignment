@@ -1,3 +1,8 @@
 // Problem 032: Find the Length of a String
 
-// Write your solution here.
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
