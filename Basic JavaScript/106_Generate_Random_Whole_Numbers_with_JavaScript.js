@@ -1,3 +1,7 @@
 // Problem 106: Generate Random Whole Numbers with JavaScript
 
-// Write your solution here.
+function randomWholeNum() {
+
+    // Only change code below this line
+    return Math.floor(Math.random() * 10);
+}
