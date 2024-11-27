@@ -1,3 +1,10 @@
 // Problem 099: Count Backwards With a For Loop
 
-// Write your solution here.
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+for (let i = 10; i > 0; i--) {
+    myArray.push(i -= 1);
+}
