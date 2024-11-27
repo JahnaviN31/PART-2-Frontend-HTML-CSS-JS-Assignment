@@ -1,3 +1,7 @@
 // Problem 110: Use the Conditional (Ternary) Operator
 
-// Write your solution here.
+function checkEqual(a, b) {
+    return a === b ? "Equal" : "Not Equal";
+}
+
+checkEqual(1, 2);
