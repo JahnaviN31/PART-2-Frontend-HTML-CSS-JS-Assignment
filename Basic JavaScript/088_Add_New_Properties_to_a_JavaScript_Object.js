@@ -1,3 +1,9 @@
 // Problem 088: Add New Properties to a JavaScript Object
 
-// Write your solution here.
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+myDog.bark = "woof";
