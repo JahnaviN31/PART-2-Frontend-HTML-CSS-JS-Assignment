@@ -1,3 +1,6 @@
 // Problem 108: Use the parseInt Function
 
-// Write your solution here.
+function convertToInteger(str) {
+    return parseInt(str);
+}
+convertToInteger("56");
