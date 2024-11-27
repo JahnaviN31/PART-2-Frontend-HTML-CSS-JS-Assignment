@@ -1,3 +1,9 @@
 // Problem 080: Returning Boolean Values from Functions
 
-// Write your solution here.
+function isLess(a, b) {
+  // Only change code below this line
+  return a < b;
+  // Only change code above this line
+}
+
+isLess(10, 15);
