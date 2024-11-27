@@ -1,3 +1,8 @@
 // Problem 113: Use Recursion to Create a Range of Numbers
 
-// Write your solution here.
+function rangeOfNumbers(startNum, endNum) {
+    return (
+        startNum === endNum ? [startNum]
+            : [startNum].concat(rangeOfNumbers(startNum + 1, endNum))
+    );
+};
