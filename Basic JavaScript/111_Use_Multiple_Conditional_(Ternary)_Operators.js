@@ -1,3 +1,9 @@
 // Problem 111: Use Multiple Conditional (Ternary) Operators
 
-// Write your solution here.
+function checkSign(num) {
+    return (
+        num === 0 ? "zero" : num > 0 ? "positive" : "negative"
+    );
+}
+
+checkSign(10);
