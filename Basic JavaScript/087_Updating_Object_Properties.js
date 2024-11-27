@@ -1,3 +1,12 @@
 // Problem 087: Updating Object Properties
 
-// Write your solution here.
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+myDog.name = "Happy Coder";
