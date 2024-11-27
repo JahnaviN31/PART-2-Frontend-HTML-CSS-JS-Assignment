@@ -1,3 +1,20 @@
-// Problem 094: Accessing Nested Arrays
+const myPlants = [
+    {
+        type: "flowers",
+        list: [
+            "rose",
+            "tulip",
+            "dandelion"
+        ]
+    },
+    {
+        type: "trees",
+        list: [
+            "fir",
+            "pine",
+            "birch"
+        ]
+    }
+];
 
-// Write your solution here.
+const secondTree = myPlants[1].list[1];
