@@ -1,3 +1,10 @@
 // Problem 08: Catch Missing Open and Closing Parenthesis After a Function Call
 
-// Write your solution here.
+function getNine() {
+    let x = 6;
+    let y = 3;
+    return x + y;
+}
+
+let result = getNine();
+console.log(result);
