@@ -1,3 +1,8 @@
 // Problem 01: Convert Celsius to Fahrenheit
 
-// Write your solution here.
+function convertCtoF(celsius) {
+    let fahrenheit;
+    fahrenheit = (celsius * 9 / 5) + 32;
+    return fahrenheit;
+}
+console.log(convertCtoF(30));
