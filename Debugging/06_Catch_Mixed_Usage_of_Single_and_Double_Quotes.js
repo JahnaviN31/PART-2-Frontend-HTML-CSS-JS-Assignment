@@ -1,3 +1,4 @@
 // Problem 06: Catch Mixed Usage of Single and Double Quotes
 
-// Write your solution here.
+let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
+console.log(innerHtml);
