@@ -1,3 +1,6 @@
 // Problem 12: Match Characters that Occur One or More Times
 
-// Write your solution here.
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/g; // Change this line
+let result = difficultSpelling.match(myRegex);
+console.log(result);
