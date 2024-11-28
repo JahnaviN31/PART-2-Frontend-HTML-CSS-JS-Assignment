@@ -10,4 +10,4 @@ function titleCase(str) {
     return result.join(" ");
 }
 
-console.log(titleCase("I'm a little tea pot"));
+titleCase("I'm a little tea pot");
