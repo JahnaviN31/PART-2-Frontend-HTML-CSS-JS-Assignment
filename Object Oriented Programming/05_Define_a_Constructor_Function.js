@@ -1,3 +1,9 @@
 // Problem 05: Define a Constructor Function
 
-// Write your solution here.
+class Dog {
+    constructor() {
+        this.name = "Bob";
+        this.color = "Brown";
+        this.numLegs = 4;
+    }
+}
