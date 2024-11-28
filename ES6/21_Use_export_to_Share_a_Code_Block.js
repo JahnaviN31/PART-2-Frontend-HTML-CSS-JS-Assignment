@@ -1,3 +1,9 @@
 // Problem 21: Use export to Share a Code Block
 
-// Write your solution here.
+const uppercaseString = (string) => {
+    return string.toUpperCase();
+}
+const lowercaseString = (string) => {
+    return string.toLowerCase()
+}
+export {uppercaseString, lowercaseString};
