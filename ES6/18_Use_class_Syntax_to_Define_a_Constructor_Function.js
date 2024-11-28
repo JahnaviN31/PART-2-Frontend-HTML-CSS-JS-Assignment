@@ -1,3 +1,9 @@
 // Problem 18: Use class Syntax to Define a Constructor Function
 
-// Write your solution here.
+class Vegetable {
+    constructor(name) {
+      this.name = name;
+    }
+  }
+const carrot = new Vegetable("carrot");
+console.log(carrot.name); 
