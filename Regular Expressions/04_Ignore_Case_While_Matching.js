@@ -1,3 +1,5 @@
 // Problem 04: Ignore Case While Matching
 
-// Write your solution here.
+let myString = "freeCodeCamp";
+let fccRegex = /freeCodeCamp/i; // Change this line
+let result = fccRegex.test(myString);
