@@ -1,3 +1,6 @@
 // Problem 01: Create a Basic JavaScript Object
 
-// Write your solution here.
+let dog = {
+    name: "bob",
+    tail: 1,
+};
