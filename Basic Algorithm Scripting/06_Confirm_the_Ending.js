@@ -1,3 +1,7 @@
 // Problem 06: Confirm the Ending
 
-// Write your solution here.
+function confirmEnding(str, target) {
+    return str.substring(str.length - target.length) === target;
+}
+
+console.log(confirmEnding("Bastian", "n"));
