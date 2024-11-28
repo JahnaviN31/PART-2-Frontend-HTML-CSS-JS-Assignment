@@ -1,7 +1,10 @@
 // Problem 03: Factorialize a Number
 
 function factorialize(num) {
-    if (num === 0) return 1;
-    return num * factorialize(num - 1);
+    let product = 1;
+    for (let i = 1; i <= num; i++) {
+        product *= i;
+    }
+    return product;
 }
 console.log(factorialize(5));
