@@ -1,3 +1,3 @@
 // Problem 01: Use an Array to Store a Collection of Data
 
-// Write your solution here.
+let yourArray = [true,20,"Jahnavi","Basic DSA","CSE"];
