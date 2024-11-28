@@ -1,3 +1,6 @@
 // Problem 04: Catch Misspelled Variable and Function Names
 
-// Write your solution here.
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables;
+console.log(`Net working capital is: ${netWorkingCapital}`);
