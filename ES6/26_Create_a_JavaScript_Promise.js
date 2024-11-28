@@ -1,3 +1,4 @@
 // Problem 26: Create a JavaScript Promise
 
-// Write your solution here.
+const makeServerRequest = new Promise((resolve,reject) => {
+});
